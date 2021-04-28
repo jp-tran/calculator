@@ -5,4 +5,5 @@
   align-items: center;
   justify-content: flex-end;
   padding: 0.5rem 1rem;
+  overflow: hidden;
 }

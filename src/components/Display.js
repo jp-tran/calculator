@@ -4,6 +4,6 @@ import './Display.css';
 
 export default class Display extends Component {
   render() {
-    return <div className='display'>Display</div>;
+    return <div className='display'>{this.props.expr.join(' ')}</div>;
   }
 }
