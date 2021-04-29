@@ -27,11 +27,10 @@ export default class Keypad extends Component {
   ];
 
   render() {
-    console.log(this.onClick);
     return (
       <div className='keypad'>
         {this.contents.map((content) => (
-          <Button text={content} onClick={this.props.onClick} />
+          <Button key={content} text={content} onClick={this.props.onClick} />
         ))}
       </div>
     );
